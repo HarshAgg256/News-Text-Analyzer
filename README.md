@@ -49,6 +49,7 @@ The credibility calculation process involves several steps:
    git clone <repository-url>
    cd <repository-directory>
    ```
+   Note : Rename the `gitattributes` filename to `.gitattributes`. Also, Check upon the `mm.pkl` file's properties. If its size is in bytes, download the file from github separately and then replace the older version of `mm.pkl` with the newer one and once again check the file's properties. Its size should be close to 30 mb. 
 
 2. **Install Dependencies**:
    Ensure you have Python installed, then install the required packages:
